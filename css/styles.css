@@ -3017,6 +3017,7 @@ img.u-pull-left {
 .mobile-home-link a {
     padding: 0 .4rem;
     margin-left: 2.4rem;
+    line-height: 1.5;
 }
 
 .main-nav {
@@ -3142,7 +3143,8 @@ img.u-pull-left {
     }
 
     .header-mobile {
-        display: block;
+        display: flex;
+        align-items: center;
     }
 
     .main-nav-wrap {
