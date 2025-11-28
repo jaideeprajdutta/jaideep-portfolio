@@ -3458,7 +3458,10 @@ img.u-pull-left {
 .about-info__pic {
     object-fit: cover;
     margin: 0 auto;
-    max-width: 360px;
+    width: 100%;
+    /* Ensures the image scales down on mobile */
+    max-width: 400px;
+    /* Adjust this value to resize the avatar */
     display: block;
 }
 
